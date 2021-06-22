@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbtractClasses/AbtractClasses.iml" filepath="$PROJECT_DIR$/AbtractClasses/AbtractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbtractClassesChallenge/AbtractClassesChallenge.iml" filepath="$PROJECT_DIR$/AbtractClassesChallenge/AbtractClassesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysSection/ArraysSection.iml" filepath="$PROJECT_DIR$/ArraysSection/ArraysSection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysSection/Banking.iml" filepath="$PROJECT_DIR$/ArraysSection/Banking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BillsBurgers/BillsBurgers.iml" filepath="$PROJECT_DIR$/BillsBurgers/BillsBurgers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BillsBurgers2/BillsBurgers2.iml" filepath="$PROJECT_DIR$/BillsBurgers2/BillsBurgers2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClasses/InnerClasses.iml" filepath="$PROJECT_DIR$/InnerClasses/InnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceSavable/InterfaceSavable.iml" filepath="$PROJECT_DIR$/InterfaceSavable/InterfaceSavable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NamingConventions/NamingConventions.iml" filepath="$PROJECT_DIR$/NamingConventions/NamingConventions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondAndMinutes/SecondAndMinutes.iml" filepath="$PROJECT_DIR$/SecondAndMinutes/SecondAndMinutes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section6/Section6.iml" filepath="$PROJECT_DIR$/Section6/Section6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section8/Section8.iml" filepath="$PROJECT_DIR$/Section8/Section8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calcFeetAndInchesToCentimeters/calcFeetAndInchesToCentimeters.iml" filepath="$PROJECT_DIR$/calcFeetAndInchesToCentimeters/calcFeetAndInchesToCentimeters.iml" />
+    </modules>
+  </component>
+</project>
