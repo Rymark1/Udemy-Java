@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.control.SeparatorMenuItem?>
+<GridPane fx:id="mainGridPane" alignment="center" gridLinesVisible="true" hgap="10"
+          xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+   <children>
+       <MenuBar>
+           <Menu mnemonicParsing="false" text="Contacts">
+               <MenuItem mnemonicParsing="false" text="Add" onAction="#showNewItemDialog"/>
+               <MenuItem mnemonicParsing="false" text="Edit" onAction="#showEditItemDialog" />
+               <MenuItem mnemonicParsing="false" text="Delete" onAction="#deleteContactMenu"/>
+               <SeparatorMenuItem/>
+               <MenuItem mnemonicParsing="false" text="Exit" onAction="#exitProgram"/>
+           </Menu>
+       </MenuBar>
+      <TableView fx:id="contactTableView" GridPane.columnIndex="0" GridPane.rowIndex="1" onKeyPressed="#handleKeyPressed" >
+        <columns>
+          <TableColumn fx:id="firstNameCol" minWidth="200.0" prefWidth="75.0" text="First Name" />
+          <TableColumn fx:id="lastNameCol" minWidth="200.0" prefWidth="75.0" text="Last Name" />
+          <TableColumn fx:id="phoneNumberCol" minWidth="200.0" prefWidth="127.0" text="Phone Number" />
+          <TableColumn fx:id="notesCol" minWidth="200.0" prefWidth="83.0" text="Notes" />
+        </columns>
+      </TableView>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
