@@ -11,6 +11,7 @@ public class Album1 {
         this.name = name;
         this.artist = artist;
         songlist = new SongList();
+
     }
 
     public boolean addSong(String title, double duration){
